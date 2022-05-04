@@ -372,6 +372,7 @@ section .product{
 
 .product{
     height: 80%;
+    width: 100%;
 }
 picture{
     width: 100%;
@@ -392,7 +393,20 @@ picture img{
 }
 
 
-
+@media all and (max-width: 799px){
+    section .product{
+        min-width: 34%;
+        height: 90%;
+        background-color: rgb(235, 228, 228);;
+        margin:  0 20px 0 0;
+        border-radius: 20px;
+        position: relative;
+        left: 0;
+        transition: 0.5s;
+        
+    
+    }
+}
 
 
 @media all and (max-width: 780px) {
