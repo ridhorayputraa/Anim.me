@@ -394,6 +394,12 @@ picture img{
 
 
 @media all and (max-width: 799px){
+
+section{
+    height:400px;
+
+}
+
     section .product{
         min-width: 34%;
         height: 90%;
@@ -423,8 +429,14 @@ picture img{
     .header-slider p span{
         font-size: 30px;
     }
+
+section{
+    height: 400px;
+}
+
     section .product {
         min-width: 49%;
+        
         margin:  0 10px  0 0;
     }
     .detail p{
